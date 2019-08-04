@@ -1,4 +1,38 @@
 ---
 label: product
 hide_body: true
-fields: []
+fields:
+- name: name_of_id
+  type: text
+  config:
+    required: false
+  label: Enter Id
+- name: enter_name
+  type: text
+  config:
+    required: false
+  label: Enter Name
+- name: enter_price
+  type: text
+  config:
+    required: false
+  label: Enter Price
+- name: enter_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Enter Description
+- name: upload_image
+  type: file
+  config:
+    maxSize: 250
+  label: Upload Image
+- name: enter_product_url
+  type: text
+  config:
+    required: false
+  label: Enter Product URL
