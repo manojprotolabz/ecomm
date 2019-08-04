@@ -10,6 +10,3 @@ title = ""
 url = "/"
 
 +++
-
-<h1>Test Heading </h1>
-A crash test dummy is a full-scale anthropomorphic test device (ATD) that simulates the dimensions, weight proportions and articulation of the human body during a traffic collision. Dummies are used by researchers, automobile and aircraft manufacturers to predict the injuries a person might sustain in a crash.
