@@ -7,17 +7,17 @@ fields:
   config:
     required: false
   label: id
-- name: enter_name
+- name: name
   type: text
   config:
     required: false
-  label: Enter Name
-- name: enter_price
+  label: name
+- name: price
   type: text
   config:
     required: false
-  label: Enter Price
-- name: enter_description
+  label: price
+- name: description
   type: textarea
   default: ''
   config:
@@ -25,14 +25,14 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Enter Description
-- name: upload_image
+  label: description
+- name: image
   type: file
   config:
     maxSize: 250
-  label: Upload Image
-- name: enter_product_url
+  label: image
+- name: product_url
   type: text
   config:
     required: false
-  label: Enter Product URL
+  label: product_url
