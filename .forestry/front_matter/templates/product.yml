@@ -36,5 +36,3 @@ fields:
   config:
     required: false
   label: Enter Product URL
-pages:
-- content/products/pro.md
