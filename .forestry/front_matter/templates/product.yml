@@ -2,11 +2,11 @@
 label: product
 hide_body: true
 fields:
-- name: name_of_id
+- name: id
   type: text
   config:
     required: false
-  label: Enter Id
+  label: id
 - name: enter_name
   type: text
   config:
