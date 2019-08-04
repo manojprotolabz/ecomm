@@ -36,3 +36,9 @@ fields:
   config:
     required: false
   label: product_url
+- name: pagecontent
+  type: include
+  config: {}
+  template: product
+  description: sadf
+  label: pagecontent
